@@ -41,11 +41,7 @@ cd 2025_NP_HW3/player
 ```powershell
 cd /path/to/HW3/player
 ```
-2. 確保 run.sh 有執行權限：
-```powershell
-chmod +x run.sh
-```
-3. 執行啟動腳本：
+2. 執行啟動腳本：
 ```powershell
 run.sh
 ```
