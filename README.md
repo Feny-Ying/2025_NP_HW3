@@ -40,15 +40,15 @@ cd 2025_NP_HW3/player
 1. 打開 Terminal，進入 `player` 資料夾：
 ```powershell
 cd /path/to/HW3/player
-確保 run.sh 有執行權限：
+#確保 run.sh 有執行權限：
 chmod +x run.sh
-執行啟動腳本：
+#執行啟動腳本：
 run.sh
 
 
 ### Linux
 
-1. 打開 PowerShell，進入 `player` 資料夾：
+#1. 打開 PowerShell，進入 `player` 資料夾：
 ```powershell
 cd D:\NP\HW3\player
 run.bat
@@ -60,6 +60,5 @@ run.bat
 * `player.py` 為入口程式
 * `game_client.py` 由 `player.py` 於執行期間動態下載並啟動
 * 各遊戲的 Python 套件需求皆包含在其對應的 `requirements.txt` 中
-* Docker container 內使用同一個 Python 環境，確保 subprocess 能正確執行
 ---
 
