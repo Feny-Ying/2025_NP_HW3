@@ -40,19 +40,31 @@ cd 2025_NP_HW3/player
 1. 打開 Terminal，進入 `player` 資料夾：
 ```powershell
 cd /path/to/HW3/player
-#確保 run.sh 有執行權限：
+```
+2. 確保 run.sh 有執行權限：
+```powershell
 chmod +x run.sh
-#執行啟動腳本：
+```
+3. 執行啟動腳本：
+```powershell
 run.sh
-
+```
 
 ### Linux
 
 #1. 打開 PowerShell，進入 `player` 資料夾：
-```powershell
+```bash
 cd D:\NP\HW3\player
-run.bat
+```
+2. 確保啟動腳本有執行權限：
+```bash
+chmod +x run.sh
+```
 
+4. 執行啟動腳本：
+```bash
+run.bat
+```
 ---
 
 ## 說明
