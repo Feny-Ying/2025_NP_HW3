@@ -6,6 +6,7 @@
 
 ## 專案結構
 player/
+
 ├── player.py
 
 ├── downloads/ # 遊戲 client 下載後生成
