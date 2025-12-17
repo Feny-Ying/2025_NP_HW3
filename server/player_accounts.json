@@ -29,6 +29,10 @@
   },
   "p3": {
     "password": "p3",
-    "records": {}
+    "records": {
+      "diep": [
+        "1.0"
+      ]
+    }
   }
 }
