@@ -7,10 +7,15 @@
 ## 專案結構
 player/
 ├── player.py
+
 ├── downloads/ # 遊戲 client 下載後生成
+
 ├── requirements.txt # requests + pygame
+
 ├── run.bat # Windows 啟動腳本
+
 └── run.sh # Linux / macOS 啟動腳本
+
 
 
 ## Demo 執行流程
