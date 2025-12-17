@@ -52,7 +52,7 @@ run.sh
 
 ### Linux
 
-#1. 打開 PowerShell，進入 `player` 資料夾：
+1. 打開 PowerShell，進入 `player` 資料夾：
 ```bash
 cd D:\NP\HW3\player
 ```
@@ -60,8 +60,7 @@ cd D:\NP\HW3\player
 ```bash
 chmod +x run.sh
 ```
-
-4. 執行啟動腳本：
+3. 執行啟動腳本：
 ```bash
 run.bat
 ```
