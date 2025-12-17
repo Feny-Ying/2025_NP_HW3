@@ -74,4 +74,5 @@ chmod +x run.sh
 * `game_client.py` 由 `player.py` 於執行期間動態下載並啟動
 * 各遊戲的 Python 套件需求皆包含在其對應的 `requirements.txt` 中
 ---
+* 在linux server 中啟動server之前要source venv/bin/activate
 
