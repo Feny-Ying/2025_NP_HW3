@@ -1,7 +1,7 @@
 import requests, os, zipfile, subprocess
 import sys
 
-SERVER_URL = "http://127.0.0.1:6000"
+SERVER_URL = "http://140.113.17.11:6000"
 DOWNLOAD_ROOT = "downloads"  # 所有玩家下載存放根目錄
 
 

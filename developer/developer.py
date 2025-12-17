@@ -1,6 +1,6 @@
 import requests, os, io, zipfile, yaml
 
-SERVER_URL = "http://127.0.0.1:5000"
+SERVER_URL = "http://140.113.17.11:5000"
 GAMES_DIR = "games"
 
 # -------------------------
