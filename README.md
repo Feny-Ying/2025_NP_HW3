@@ -1,15 +1,17 @@
-# 2025 NP HW3 – Player Docker Demo
+# 2025 NP HW3 – Player Demo (Virtualenv)
 
-本作業已使用 **Docker** 封裝執行環境，助教無需手動安裝任何 Python 套件，只需依照以下步驟即可完成 demo。
-
----
-
-## 環境需求
-
-* 已安裝 **Docker Desktop**
-* 作業系統：Windows / Linux / macOS 皆可
+本作業使用 Python 撰寫，已提供 **虛擬環境與啟動腳本**，助教無需手動安裝套件即可執行。
 
 ---
+
+## 專案結構
+player/
+├── player.py
+├── downloads/ # 遊戲 client 下載後生成
+├── requirements.txt # requests + pygame
+├── run.bat # Windows 啟動腳本
+└── run.sh # Linux / macOS 啟動腳本
+
 
 ## Demo 執行流程
 
@@ -22,28 +24,34 @@ cd 2025_NP_HW3/player
 
 ---
 
-### Step 2. 建立 Docker Image
+---
 
-```bash
-docker build -t hw3-player .
-```
+## 系統需求
 
-> 第一次執行會稍久，因為需要下載 Python 映像檔。
+- Python 3.10 或以上  
+- Windows / Linux / macOS
 
 ---
 
-### Step 3. 啟動 Player（自動執行）
+## Demo 執行方式
 
-```bash
-docker run -it hw3-player
-```
+### Windows
 
-Container 啟動後會自動執行 `player.py`，並由 `player.py`：
+1. 打開 Terminal，進入 `player` 資料夾：
+```powershell
+cd /path/to/HW3/player
+確保 run.sh 有執行權限：
+chmod +x run.sh
+執行啟動腳本：
+run.sh
 
-1. 下載並解壓遊戲 client
-2. 安裝該遊戲所需的 Python 套件（requirements.txt）
-3. 以 subprocess 啟動 `game_client.py`
-4. 開始遊戲互動流程
+
+### Linux
+
+1. 打開 PowerShell，進入 `player` 資料夾：
+```powershell
+cd D:\NP\HW3\player
+run.bat
 
 ---
 
