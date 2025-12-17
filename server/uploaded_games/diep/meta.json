@@ -1,0 +1,12 @@
+{
+  "developer": "d1",
+  "game_name": "diep",
+  "description": "坦克大戰",
+  "type": "PVP",
+  "max_players": 10,
+  "config": "",
+  "latest_version": "1.0",
+  "versions": {
+    "1.0": "坦克大戰"
+  }
+}

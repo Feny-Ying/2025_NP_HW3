@@ -1,0 +1,34 @@
+{
+  "p1": {
+    "password": "p1",
+    "records": {
+      "guess_number": [
+        "1.0"
+      ],
+      "gomoku": [
+        "1.0"
+      ],
+      "diep": [
+        "1.0"
+      ]
+    }
+  },
+  "p2": {
+    "password": "p2",
+    "records": {
+      "guess_number": [
+        "1.0"
+      ],
+      "gomoku": [
+        "1.0"
+      ],
+      "diep": [
+        "1.0"
+      ]
+    }
+  },
+  "p3": {
+    "password": "p3",
+    "records": {}
+  }
+}
