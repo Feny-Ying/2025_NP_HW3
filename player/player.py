@@ -242,12 +242,13 @@ def create_room_and_play(username, game_name):
         check=True
     )
 
+
     # 3) 玩家啟動 game_client.py
     cmd = [
-        "python", GAME_CLIENT_PATH,
-        "--host", host_addr,
-        "--port", str(host_port),
-        "--username", username
+    sys.executable, GAME_CLIENT_PATH,
+    "--host", host_addr,
+    "--port", str(host_port),
+    "--username", username
     ]
     print("啟動遊戲客戶端：", " ".join(cmd))
     subprocess.call(cmd)
@@ -339,11 +340,12 @@ def join_room_and_play(username):
         check=True
     )
 
+    # 3) 玩家啟動 game_client.py
     cmd = [
-        "python", GAME_CLIENT_PATH,
-        "--host", host_addr,
-        "--port", str(host_port),
-        "--username", username
+    sys.executable, GAME_CLIENT_PATH,
+    "--host", host_addr,
+    "--port", str(host_port),
+    "--username", username
     ]
     subprocess.call(cmd)
     record_play_server(username, game_name, version)
