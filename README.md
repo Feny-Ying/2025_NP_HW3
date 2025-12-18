@@ -49,7 +49,7 @@ cd /path/to/HW3/player
 ```
 2. 執行啟動腳本：
 ```powershell
-.\run.sh
+.\run.bat
 ```
 
 ### Linux
@@ -64,7 +64,7 @@ chmod +x run.sh
 ```
 3. 執行啟動腳本：
 ```bash
-.\run.bat
+.\run.sh
 ```
 ---
 
