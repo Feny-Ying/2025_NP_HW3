@@ -255,7 +255,7 @@ def start_room():
     # start game server subprocess
     cmd = [
         "python", GAME_SERVER_PATH,
-        "--host", "127.0.0.1",
+        "--host", "140.113.17.11",
         "--port", str(port),
         "--max_players", str(max_players)
     ]
@@ -264,7 +264,7 @@ def start_room():
     proc = subprocess.Popen(cmd)
 
     # save host info
-    room["host_addr"] = "127.0.0.1"
+    room["host_addr"] = "140.113.17.11"
     room["host_port"] = port
     room["status"] = "running"
     room_manager._save()
@@ -272,7 +272,7 @@ def start_room():
     return jsonify({
         "status": "ok",
         "room_id": room_id,
-        "host_addr": "127.0.0.1",
+        "host_addr": "140.113.17.11",
         "host_port": port,
         "version" : version
     })
